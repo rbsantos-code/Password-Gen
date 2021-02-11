@@ -135,3 +135,6 @@ button[disabled] {
     font-size: 0.8rem;
   }
 }
+
+
+/* Need to add media queries to fix responsiveness for different screen sizes */
