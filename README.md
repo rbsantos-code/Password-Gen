@@ -14,8 +14,10 @@
 * When the password is generated, the password should be displayed in the text area
 
 
-## Video
-<iframe src="https://drive.google.com/file/d/1u5x4AM0m9OFdsNoONCJuyqYzdlEYEAoo/preview" width="640" height="480"></iframe>
+## Video/GIF
+![Untitled_ Feb 14, 2021 9_05 PM](https://user-images.githubusercontent.com/77135925/107912470-64bb7280-6f13-11eb-8eb8-967f07bfdb47.gif)
+
+
 
 ## Built with
 * HTML
@@ -23,3 +25,4 @@
 * JavaScript
 
 ## Website
+* https://rbsantos-code.github.io/Password-Gen/
