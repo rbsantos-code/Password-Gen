@@ -9,7 +9,7 @@
 * Have a working button to start prompt password criteria
 * Create password criteria for user to see and be notified 
 * Create a prompt that will notify user about password length, special characters, upper case, and lower case letters
-* Password generator should also have a validation for each choice that user makes
+* An alert will notify user when they have entered answer that does not answer the prompts
 * After user makes a choice, a random password should be generated 
 * When the password is generated, the password should be displayed in the text area
 
