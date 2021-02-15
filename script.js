@@ -31,5 +31,23 @@ function writePassword() {
 
 }
 
+writePassword() = function generatePassword {
+
+  enter = window.prompt("How long would you like your PASSWORD to be? Choose a number between 8 and 128");
+
+  if(!enter) {
+    window.alert("Please choose a PASSWORD length");
+  } else if (enter < 8 || enter > 128) {
+    enter = window.prompt("Choose a number between 8 and 128");
+
+  } else {
+    containNumber = window.confirm("PASSWORD contain numbers?");
+    containSpecial = window.confirm("PASSWORD contain special characters?");
+    containUpper = window.confirm("PASSWORD contain UPPER case letters?");
+    containLower = window.confirm("PASSWORD contain LOWER case letters?");
+  };
+}
+
+
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+// generateBtn.addEventListener("click", writePassword);
