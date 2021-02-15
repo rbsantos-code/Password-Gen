@@ -73,6 +73,31 @@ writePassword() = function generatePassword {
     outcome = number.concat(upper, lower);
   }
 
+  // CHOOSE 2
+  else if (containNumber && containSpecial) {
+    outcome = number.concat(special);
+  }
+
+  else if (containNumber && containUpper) {
+    outcome= number.concat(upper);
+  }
+
+  else if (containNumber && containLower) {
+    outcome = number.concat(lower);
+  }
+
+  else if (containSpecial && containUpper) {
+    outcome = special.concat(upper);
+  }
+
+  else if (containSpecial && containLower) {
+    outcome = special.concat(lower);
+  }
+
+  else if (containUpper && containLower) {
+    outcome = upper.concat(lower);
+  }
+
 }
 
 
