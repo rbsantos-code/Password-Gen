@@ -115,6 +115,17 @@ writePassword() = function generatePassword {
     outcome = lower;
   };
 
+
+  var passwordOutcome = "";
+  
+  // variable
+  for (var i = 0; i < enter; i++) {
+    passwordOutcome += outcome[Math.floor(Math.random() * outcome.length)];
+    console.log(i);
+  }
+
+  return passwordOutcome;
+
 }
 
 
