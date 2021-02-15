@@ -98,6 +98,23 @@ writePassword() = function generatePassword {
     outcome = upper.concat(lower);
   }
 
+  // CHOOSE 1 
+  else if (confirmNumber) {
+    outcome = number;
+  }
+
+  else if (confirmSpecial) {
+    outcome = special;
+  }
+
+  else if (confirmUpper) {
+    outcome = upper;
+  }
+
+  else if (confirmLower) {
+    outcome = lower;
+  };
+
 }
 
 
