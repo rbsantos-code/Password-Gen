@@ -20,7 +20,7 @@ var upper = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N
 
 
 // // Get references to the #generate element
-// var generateBtn = document.querySelector("#generate");
+var generateBtn = document.querySelector("#generate");
 
 // // Write password to the #password input
 function writePassword() {
@@ -129,4 +129,4 @@ writePassword()
 
 
 // Add event listener to generate button
-// generateBtn.addEventListener("click", writePassword);
+generateBtn.addEventListener("click", writePassword);
