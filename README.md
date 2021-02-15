@@ -2,6 +2,13 @@
 
 ## Title: Password-Generator
 
+## Table of contents
+* Purpose
+* Goals
+* Video/GIF
+* Built with
+* Website
+
 ## Purpose
 * For this week challenge, we are task to create an application for the user to use to generate a random password. When the user uses this application, this application will give them a choice to generate a password based on their criteria they have selected.
 
