@@ -46,6 +46,33 @@ writePassword() = function generatePassword {
     containUpper = window.confirm("PASSWORD contain UPPER case letters?");
     containLower = window.confirm("PASSWORD contain LOWER case letters?");
   };
+
+  if (!containNumber && !containSpecial && !containUpper && !containLower) {
+    outcome = window.alert("Please choose a criteria for your PASSWOORD");
+  }
+
+  // User picks all 4
+  else if (containNumber && containSpecial && containUpper && containLower) {
+    outcome = number.concat(special, upper, lower);
+  }
+
+  // Choose 3
+  else if (containNumber && containSpecial && containUpper) {
+    ooutcome = number.concat(special, upper);
+  }
+
+  else if (containNumber && containSpecial && containLower) {
+    outcome = number.concat(special, lower);
+  }
+
+  else if (containSpecial && containUpper && containLower) {
+    outcome = special.concat(upper, lower);
+  }
+
+  else if (containNumber && containUpper && containLower) {
+    outcome = number.concat(upper, lower);
+  }
+
 }
 
 
